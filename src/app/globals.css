@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: black;
+}
+.cursor {
+  position: fixed;
+  z-index: 99999;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.49);
+  filter: blur(15px);
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  transition: box-shadow 0.3s ease;
+}
+@keyframes glow {
+  0%, 100% {
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.879);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.7), 0 0 30px rgba(255, 255, 255, 0.7);
+  }
+}
+
+.cursor.glowing {
+  animation: glow 1s ease both;
+}

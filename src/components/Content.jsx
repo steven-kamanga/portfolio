@@ -7,14 +7,14 @@ const Content = () => {
     <div className="ml-40 border border-t-0 border-b-0 border-r-0 border-yellow-500 border-x-1">
       <div className="flex flex-col px-20 pl-5 lg:justify-start lg:items-start">
         <h1 className="lg:items-start lg:justify-start text-[40px] font-bold lg:text-5xl">
-            Hi, I'm Steven Kamanga ✋🏾
+          Hi, I&apos;m Steven Kamanga ✋🏾
         </h1>
         <p className="pt-5 text-[20px] font-medium lg:text-xl">
-            I'm a Computer Science Student and aspiring Software Engineer 
-            <br/>with an expertise in digital craftsmanship of the highest order,
-            <br/>Dive into the captivating universe of pixels, codes and pure mastery.
+          I&apos;m a Computer Science Student and aspiring Software Engineer 
+          <br/>with an expertise in digital craftsmanship of the highest order,
+          <br/>Dive into the captivating universe of pixels, codes and pure mastery.
         </p>
-    <Contact />
+        <Contact />
       </div>
     </div>
     

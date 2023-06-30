@@ -2,10 +2,11 @@ import React from 'react'
 import Contact from './Contact'
 
 
-const Content = () => {
+const Content = () => { 
   return (
-    <div className="ml-40 border border-t-0 border-b-0 border-r-0 border-yellow-500 border-x-1">
-      <div className="flex flex-col px-20 pl-5 lg:justify-start lg:items-start">
+    <div className="ml-2">
+    <div className="border border-t-0 border-b-0 border-r-0 border-yellow-500 lg:ml-40 border-x-1">
+      <div className="flex flex-col px-5 lg:pl-5 lg:pr-5 lg:justify-start lg:items-start">
         <h1 className="lg:items-start lg:justify-start text-[40px] font-bold lg:text-5xl">
           Hi, I&apos;m Steven Kamanga ✋🏾
         </h1>
@@ -17,6 +18,8 @@ const Content = () => {
         <Contact />
       </div>
     </div>
+    </div>
+    
     
   )
 }

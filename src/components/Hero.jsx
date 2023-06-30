@@ -3,8 +3,9 @@ import Content from './Content'
 
 const Hero = () => {
   return (
-    <header className="flex flex-row items-center h-screen justify-evenly">
-      <div className="font-mono text-[200px] font-extrabold md:text-[650px] pl-20"><span className="text-black bg-yellow-600 ">S</span>K</div>
+    <header className="flex flex-col items-center h-screen lg:flex-row justify-evenly">
+      <div className="font-mono text-[300px] font-extrabold md:text-[650px] lg:pl-10">
+        <span className="text-black bg-yellow-600 ">S</span>K</div>
       <Content />
     </header>
   )

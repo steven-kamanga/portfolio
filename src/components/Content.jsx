@@ -10,7 +10,7 @@ const Content = () => {
         <h1 className="lg:items-start lg:justify-start text-[40px] font-bold lg:text-5xl">
           Hi, I&apos;m Steven Kamanga ✋🏾
         </h1>
-        <p className="pt-2 text-[20px] font-medium lg:text-xl">
+        <p className="pt-2 lg:pt-5 text-[20px] font-medium lg:text-xl">
           I&apos;m a Computer Science Student and aspiring Software Engineer 
           <br/>with an expertise in digital craftsmanship of the highest order,
           <br/>Dive into the captivating universe of pixels, codes and pure mastery.

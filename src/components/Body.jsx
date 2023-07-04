@@ -5,17 +5,18 @@ import Projects from './Projects'
 import Languages from './Languages'
 import Somework from './Somework'
 import Footer from './Footer'
+import Stats from "@/components/Stats";
 
 const Body = () => {
   return (
-    <body>
+    <>
     <ClientHome />
     <Hero />
+    <Stats />
     <Projects />
     <Languages />
     <Somework />
-    <Footer />
-    </body>
+    </>
   )
 }
 

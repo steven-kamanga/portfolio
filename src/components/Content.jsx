@@ -1,5 +1,5 @@
 import React from 'react'
-import Contact from './Contact'
+import ContactButton from "./Contact";
 
 
 const Content = () => { 
@@ -15,7 +15,7 @@ const Content = () => {
           with an expertise in digital craftsmanship of the highest order
          <br/> Dive into the captivating universe of pixels, codes and pure mastery.
         </p>
-        <Contact className="text-gray-200" />
+        <ContactButton className="text-gray-200" />
       </div>
     </div>
     </div>

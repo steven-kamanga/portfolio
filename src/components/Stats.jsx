@@ -3,9 +3,9 @@ import React from "react";
 
 export default   function  Stats() {
     return (
-        <div className=" pt-3">
+        <div className="text-gray-200 pt-3">
             <div>
-                <h2 className="text-white font-bold text-2xl pl-8 pb-2">
+                <h2 className=" font-bold text-2xl pl-8 pb-2">
                     Frameworks & <br />
                     Languages
                 </h2>

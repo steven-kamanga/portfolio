@@ -3,8 +3,14 @@ import React from "react";
 
 export default   function  Stats() {
     return (
-        <div className="flex">
-            <div className="max-w-2xl sm:pl-8 pl-3 text-white">
+        <div className=" pt-3">
+            <div>
+                <h2 className="text-white font-bold text-2xl pl-8 pb-2">
+                    Frameworks & <br />
+                    Languages
+                </h2>
+            </div>
+            <div className="max-w-2xl sm:pl-8 md:pt-2 pt-0 l-3 text-white">
                 <table className="table">
                     <tbody>
                     <tr className="pt-2">

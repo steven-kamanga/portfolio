@@ -3,7 +3,7 @@ import React from "react";
 
 export default   function  Stats() {
     return (
-        <div className="flex pt-10">
+        <div className="flex sm:pt-10 pt-2">
             <div className="max-w-2xl sm:pl-8 pl-3 text-white">
                 <table className="table">
                     <tbody>

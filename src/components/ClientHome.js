@@ -9,15 +9,26 @@ export default function ClientHome() {
     const handleMouseMove = (e) => {
         setCursorPosition({ x: e.clientX, y: e.clientY });
     };
-
+    let timeoutId = useRef(null);
     const handleClick = () => {
         if (cursorRef.current) {
             cursorRef.current.classList.add('glowing');
-            setTimeout(() => {
-                cursorRef.current.classList.remove('glowing');
+            timeoutId.current = setTimeout(() => {
+                if (cursorRef.current) {
+                    cursorRef.current.classList.remove('glowing');
+                }
             }, 1000);
         }
     };
+
+    useEffect(() => {
+        return () => {
+            if (timeoutId.current) {
+                clearTimeout(timeoutId.current);
+            }
+        };
+    }, []);
+
 
     useEffect(() => {
         document.addEventListener('mousemove', handleMouseMove);

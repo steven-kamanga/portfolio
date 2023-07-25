@@ -11,12 +11,13 @@ const CursorPortal = ({ children }) => {
         }
 
         return () => {
-            if (elRef.current) {
+            if (elRef.current && elRef.current.parentNode === document.body) {
                 document.body.removeChild(elRef.current);
                 elRef.current = null;
             }
         };
     }, []);
+
 
     return elRef.current ? ReactDOM.createPortal(children, elRef.current) : null;
 };

@@ -4,7 +4,7 @@ import Image from 'next/image'
 const Footer = () => {
   return (
       <div className="pl-2 pr-5  ">
-          <div className="footer px-2 border border-t-0 border-l-1 border-r-0 border-b-0 border-yellow-600 items-center p-4 text-white">
+          <div className="footer px-2 border border-t-0 border-l-1 border-r-0 border-b-0 border-sky-500 items-center p-4 text-white">
               <div className="items-center grid-flow-col">
                   <p>Copyright © 2023 - All right reserved</p>
               </div>

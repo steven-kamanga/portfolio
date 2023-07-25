@@ -4,6 +4,7 @@ import Content from './Content'
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 import useScrollPosition from './ScrollHook';
+import Navbar from "@/components/Navbar";
 
 
 const Hero = () => {
@@ -23,9 +24,10 @@ const Hero = () => {
   
   return (
     <header className="flex flex-col items-center min-h-screen lg:flex-row justify-evenly">
+
       <div className="text-gray-200 font-mono md:text-[460px] text-[300px] font-extrabold lg:text-[650px] lg:pl-10">
       <motion.span
-          className="text-black bg-yellow-600"
+          className="text-black bg-sky-500"
           whileHover={{
             scale: [1, 1.2, 1],
             rotateY: [0, 180, 0],
@@ -46,7 +48,7 @@ const Hero = () => {
           alt='Arrow down'
         />
       </motion.div>
-        
+
     </header>
   )
 }

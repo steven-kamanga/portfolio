@@ -4,9 +4,7 @@ const Contact = () => {
   return (
     <div className="flex flex-row pt-2 lg:pt-5 lg:justify-evenly">
         <button className="btn btn-outline">Contact</button>
-        <div className="pr-2"/>
-        <button className="btn btn-outline">About</button>
-    </div>    
+    </div>
   )
 }
 

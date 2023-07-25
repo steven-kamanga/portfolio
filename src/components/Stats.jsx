@@ -3,8 +3,8 @@ import React from "react";
 
 export default   function  Stats() {
     return (
-        <section>
-            <div className="w-1/6 sm:pl-10 pl-3 text-white">
+        <div className="flex pt-10">
+            <div className="max-w-2xl sm:pl-8 pl-3 text-white">
                 <table className="table">
                     <tbody>
                     <tr className="pt-2">
@@ -26,7 +26,7 @@ export default   function  Stats() {
                             </div>
                         </td>
                         <td>
-                            <progress className="progress progress-info bg-white w-36 sm:w-72" value="88" max="100"></progress>                        </td>
+                            <progress className="progress progress-info bg-white w-36 sm:w-80 md:w-96 lg:w-[600px]" value="88" max="100"></progress>                        </td>
                         <td className="pl-5">80%</td>
                     </tr>
                     <tr className="pt-2">
@@ -48,7 +48,7 @@ export default   function  Stats() {
                             </div>
                         </td>
                         <td>
-                            <progress className="progress progress-info bg-white w-36 sm:w-72" value="88" max="100"></progress>                        </td>
+                            <progress className="progress progress-info bg-white w-36 sm:w-80 md:w-96 lg:w-[600px]" value="88" max="100"></progress>                        </td>
                         <td className="pl-5">88%</td>
                     </tr>
                     <tr className="pt-2">
@@ -70,7 +70,7 @@ export default   function  Stats() {
                             </div>
                         </td>
                         <td>
-                            <progress className="progress progress-info bg-white w-36 sm:w-72" value="68" max="100"></progress>                        </td>
+                            <progress className="progress progress-info bg-white w-36 sm:w-80 md:w-96 lg:w-[600px]" value="68" max="100"></progress></td>
                         <td className="pl-5">68%</td>
                     </tr>
                     <tr className="pt-2">
@@ -87,19 +87,17 @@ export default   function  Stats() {
                                     </div>
                                 </div>
                                 <div>
-                                    <div className="font-bold">Django</div>
+                                    <div className="font-bold">Django <br/> Python</div>
                                 </div>
                             </div>
                         </td>
                         <td>
-                            <progress className="progress progress-info bg-white w-36 sm:w-72" value="75" max="100"></progress>                        </td>
-                        <td className="pl-5">75%</td>
+                            <progress className="progress progress-info bg-white w-36 sm:w-80 md:w-96 lg:w-[600px] " value="75" max="100"></progress>                        </td>
+                        <td className="pl-5">83%</td>
                     </tr>
-
                     </tbody>
-
                 </table>
             </div>
-        </section>
+        </div>
     )
 }

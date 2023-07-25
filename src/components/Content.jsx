@@ -13,7 +13,7 @@ const Content = () => {
         <p className="pt-2 lg:pt-5 text-[15px] font-medium lg:text-xl">
           I&apos;m a Computer Science Student and aspiring Software Engineer 
           with an expertise in digital craftsmanship of the highest order,
-         Dive into the captivating universe of pixels, codes and pure mastery.
+         <br/> Dive into the captivating universe of pixels, codes and pure mastery.
         </p>
         <Contact className="text-gray-200" />
       </div>

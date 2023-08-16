@@ -14,7 +14,7 @@ const Body = () => {
     <Stats />
     <Projects />
     <Somework />
-    <Languages />
+    {/* <Languages /> */}
     </>
   )
 }

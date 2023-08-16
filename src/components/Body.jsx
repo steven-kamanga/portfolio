@@ -4,6 +4,7 @@ import Hero from './Hero'
 import Projects from './Projects'
 import Somework from './Somework'
 import Stats from "@/components/Stats";
+import Languages from './Languages'
 
 const Body = () => {
   return (
@@ -13,6 +14,7 @@ const Body = () => {
     <Stats />
     <Projects />
     <Somework />
+    <Languages />
     </>
   )
 }

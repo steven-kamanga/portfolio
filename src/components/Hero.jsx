@@ -4,7 +4,6 @@ import Content from './Content'
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 import useScrollPosition from './ScrollHook';
-import Navbar from "@/components/Navbar";
 
 
 const Hero = () => {
